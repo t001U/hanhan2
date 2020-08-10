@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="epoch-console-api" />
+        <module name="epoch-service" />
+        <module name="epoch-app-api" />
+        <module name="epoch-dao" />
+        <module name="epoch-util" />
+        <module name="epoch-core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="epoch-app-api" target="1.8" />
+      <module name="epoch-console-api" target="1.8" />
+      <module name="epoch-core" target="1.8" />
+      <module name="epoch-dao" target="1.8" />
+      <module name="epoch-parent" target="1.8" />
+      <module name="epoch-service" target="1.8" />
+      <module name="epoch-util" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="epoch-app-api" options="-parameters" />
+      <module name="epoch-console-api" options="-parameters" />
+    </option>
+  </component>
+</project>

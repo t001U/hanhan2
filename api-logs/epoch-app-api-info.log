@@ -1,0 +1,17 @@
+2020-08-06 14:32:25.987 [main] INFO  com.epoch.EpochAppApiApplication - Starting EpochAppApiApplication on AWM6BRHOWO37R86 with PID 6092 (D:\ideawork\xiaoyang\epoch-app-api\target\classes started by Administrator in D:\ideawork\xiaoyang)
+2020-08-06 14:32:25.990 [main] INFO  com.epoch.EpochAppApiApplication - The following profiles are active: dev
+2020-08-06 14:32:41.071 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-06 14:32:41.082 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-06 14:32:41.695 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 120ms. Found 0 Redis repository interfaces.
+2020-08-06 14:32:44.104 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfiguration' of type [com.epoch.core.configuration.RedisConfiguration$$EnhancerBySpringCGLIB$$7138202] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-06 14:32:45.771 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8980 (http)
+2020-08-06 14:32:45.792 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8980"]
+2020-08-06 14:32:45.793 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-08-06 14:32:45.794 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-06 14:32:46.067 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/epoch-app-api] - Initializing Spring embedded WebApplicationContext
+2020-08-06 14:32:46.067 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 19505 ms
+2020-08-06 14:32:48.670 [main] INFO  com.epoch.util.ConfigUtil - load custom config file is completed：config.properties
+2020-08-06 14:32:48.675 [main] INFO  com.epoch.core.configuration.WebMvcConfiguration - register WebMvcConfiguration addInterceptors TokenInterceptor is completed
+2020-08-06 14:32:49.770 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8980"]
+2020-08-06 14:32:49.809 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8980 (http) with context path '/epoch-app-api'
+2020-08-06 14:32:49.820 [main] INFO  com.epoch.EpochAppApiApplication - Started EpochAppApiApplication in 33.681 seconds (JVM running for 39.385)

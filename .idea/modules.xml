@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/epoch-app-api/epoch-app-api.iml" filepath="$PROJECT_DIR$/epoch-app-api/epoch-app-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/epoch-console-api/epoch-console-api.iml" filepath="$PROJECT_DIR$/epoch-console-api/epoch-console-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/epoch-core/epoch-core.iml" filepath="$PROJECT_DIR$/epoch-core/epoch-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/epoch-dao/epoch-dao.iml" filepath="$PROJECT_DIR$/epoch-dao/epoch-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/epoch-parent/epoch-parent.iml" filepath="$PROJECT_DIR$/epoch-parent/epoch-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/epoch-service/epoch-service.iml" filepath="$PROJECT_DIR$/epoch-service/epoch-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/epoch-util/epoch-util.iml" filepath="$PROJECT_DIR$/epoch-util/epoch-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/xiaoyang.iml" filepath="$PROJECT_DIR$/.idea/xiaoyang.iml" />
+    </modules>
+  </component>
+</project>
